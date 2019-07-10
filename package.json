@@ -1,7 +1,7 @@
 {
-  "name": "wp-starterpack",
+  "name": "starterpack-child",
   "version": "1.0.0",
-  "description": "Just another WordPress starter theme.",
+  "description": "Just another WordPress child theme.",
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch",
@@ -20,6 +20,7 @@
   },
   "keywords": [
     "wordpress",
+    "child-theme",
     "webpack"
   ],
   "author": "",
