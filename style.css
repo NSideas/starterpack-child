@@ -10,6 +10,16 @@ License URI: LICENSE
 Text Domain: starterpackchild
 Tags: custom
 */
+body {
+  background: #222;
+  color: white; }
+
+.site {
+  background: #222;
+  border: none; }
+
+a {
+  color: tomato; }
 
 
 /*# sourceMappingURL=style.css.map*/
