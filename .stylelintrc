@@ -1,8 +1,11 @@
 {
-  "extends": "stylelint-config-wordpress/scss",
-  "plugins": ["stylelint-order"],
+  "extends": "stylelint-config-recommended-scss",
   "rules": {
-    "order/properties-alphabetical-order": true,
-    "max-line-length": 120
+    "max-line-length": 120,
+    "font-family-name-quotes": ["always-unless-keyword", { "severity": "warning" }],
+    "no-descending-specificity": null,
+    "block-no-empty": [true, { "severity": "warning" }],
+    "no-duplicate-selectors": [true, { "severity": "warning" }],
+    "declaration-block-no-duplicate-properties": [true, { "severity": "warning" }]
   }
 }

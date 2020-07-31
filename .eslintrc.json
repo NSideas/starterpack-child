@@ -4,7 +4,7 @@
     "es6": true,
     "node": true
   },
-  "extends": ["wordpress", "plugin:prettier/recommended"],
+  "extends": ["wordpress"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
@@ -16,5 +16,14 @@
   "globals": {
     "wp": true,
     "jQuery": true
+  },
+  "rules": {
+    "yoda": "off",
+    "space-in-parens": "off",
+    "space-unary-ops": "off",
+    "lines-around-comment" : "warn",
+    "semi": ["warn", "always"],
+    "no-trailing-spaces": "warn",
+    "vars-on-top": "off"
   }
 }

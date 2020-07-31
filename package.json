@@ -4,8 +4,8 @@
   "description": "Just another WordPress child theme.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --watch",
-    "build": "webpack --mode=production",
+    "start": "webpack --mode development --watch",
+    "build": "webpack --mode production",
     "clean": "rm -r public/*",
     "eslint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "eslint:fix": "eslint \"src/**/*.{js,jsx}\" --quiet --fix",
