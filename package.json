@@ -40,6 +40,7 @@
     "browser-sync-webpack-plugin": "^2.2.2",
     "css-loader": "^1.0.1",
     "css-mqpacker": "^7.0.0",
+    "dotenv": "^8.2.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^3.6.0",
     "eslint-config-wordpress": "^2.0.0",

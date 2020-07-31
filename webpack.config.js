@@ -1,3 +1,4 @@
+require('dotenv').config();
 const path = require('path');
 const miniCssExtract = require('mini-css-extract-plugin');
 const uglifyJS = require('uglifyjs-webpack-plugin');
@@ -62,7 +63,7 @@ module.exports = (env, options) => {
       new miniCssExtract({ filename: '../style.css' }),
       new browserSync({
         files: '**/*.php',
-        proxy: 'http://starterpack.local'
+        proxy: process.env.HOST
       })
     ],
     optimization: {
