@@ -1,6 +1,6 @@
 # Starterpack Child
 
-A minimal boilerplate for [WordPress child themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/).
+A minimal boilerplate for creating a [WordPress child theme](https://developer.wordpress.org/themes/advanced-topics/child-themes/).
 
 ## Getting Started
 
